@@ -11,9 +11,17 @@
 - **목적** : 스키/스케이팅 연맹의 정보 제공 및 홍보, 회원 및 일반 사용자 대상 안내  
 - **주요 페이지**  
   - 메인 페이지 (Home / Index)  
+
+ <img width="650" height="350" alt="image" src="https://github.com/user-attachments/assets/9222fecf-619a-48f6-8859-e91df0e1e6c2" />  
+ <img width="700" height="380" alt="image" src="https://github.com/user-attachments/assets/ed66d412-9fdb-4d08-bd75-dece783b75da" />  
+
+
   - About (연맹 소개)  
+
+<img width="600" height="320" alt="image" src="https://github.com/user-attachments/assets/bb9c8168-a484-4050-b41c-e773ac528ec5" />  
+
+
   - Contact (문의/연락처 안내)  
-  - Skating / Ski 섹션 (종목 소개 및 정보 제공)  
   - 공지/이벤트, 굿즈 안내 등 추가 콘텐츠 제공 가능  
 
 - **디자인 및 기술 스택**  
@@ -26,7 +34,6 @@
 ## ✅ 주요 기능 / 특징  
 
 - 연맹 및 활동 소개 페이지 — 연맹의 목적, 활동 내역, 소개글 제공  
-- 스키 종목 정보 페이지 — 종목별 특징, 지도자 안내, 참고 정보 등  
 - 연락 / 문의 페이지 — 사용자 문의를 위한 연락처 또는 안내 정보 제공  
 - 반응형 혹은 기본 웹 호환 레이아웃 — HTML/CSS로 구성된 심플하면서 직관적인 UI  
 - 정적 자원 기반 운영 — 서버 없이 GitHub Pages 등으로도 배포 가능  
