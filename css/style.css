@@ -768,8 +768,9 @@ ul.email li i {
 
 .test_box img {
   width: 20px;
+  height: auto;
+  object-fit: contain;
   margin: 0 auto;
-  padding: 15px 0;
 }
 
 .test_box p {
