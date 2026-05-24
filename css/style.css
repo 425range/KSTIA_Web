@@ -500,13 +500,13 @@ ul.email li i {
     padding-bottom: 60px;
   }
   @media (max-width: 768px) {
-  .relative h3 {
-    font-size: 48px;
-    line-height: 56px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    .relative h3 {
+      font-size: 48px;
+      line-height: 56px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
   }
-}
 }
 
 /** end banner section **/
