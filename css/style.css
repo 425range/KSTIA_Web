@@ -1104,4 +1104,12 @@ ul.social_icon li a:hover {
   opacity: 1;
 }
 
+.chatbot-btn {
+  background-color: #0b5ed7;
+  color: white !important;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
 /** end contact **/
