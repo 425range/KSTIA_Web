@@ -422,93 +422,81 @@ ul.email li i {
 }
 
 .carousel-item {
-  min-height: 350px;
-  height: 100%;
   width: 100%;
+  height: 700px;
+  min-height: 700px;
 }
 
 .carousel-inner {
-  height: 500px;
+  width: 100%;
+  height: 700px;
 }
 
 .carousel-inner .carousel-item {
-  height: 100%;
+  height: 700px;
 }
 
-.carousel-inner .carousel-item img {
-  max-height: 100%;
+.carousel-caption.relative {
+  position: relative;
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.carousel-caption .row {
   width: 100%;
-  object-fit: cover;
-}
-
-.carousel-inner .carousel-caption {
-  bottom: 0;
-}
-
-.board {
-  max-width: 474px;
-  float: right;
-  text-align: left;
-  width: 100%;
-}
-
-.relative h3 {
-  padding-top: 60px;
-  font-size: 70px;
-  line-height: 85px;
-  color: #2b2b2b;
-  font-weight: bold;
-  padding-bottom: 60px;
-}
-
-.carousel .icon-container {
-  display: inline-block;
-  font-size: 25px;
-  line-height: 25px;
-  padding: 1em;
-  text-align: center;
-  border-radius: 50%;
-}
-
-.slider_main .carousel-indicators {
-  display: none;
-}
-
-#carouselExampleIndicators .carousel-control-prev,
-#carouselExampleIndicators .carousel-control-next {
-  width: 66px;
-  height: 66px;
-  background-color: #3e0bce;
-  color: #fff;
-  font-size: 15px;
-  opacity: 1;
-  border-radius: 50px;
-  top: 100%;
-}
-
-#carouselExampleIndicators .carousel-control-prev {
-  left: 4%;
-}
-
-#carouselExampleIndicators .carousel-control-next {
-  right: inherit;
-  left: 10%;
-}
-
-#carouselExampleIndicators .carousel-control-next:focus,
-#carouselExampleIndicators .carousel-control-next:hover,
-#carouselExampleIndicators .carousel-control-prev:focus,
-#carouselExampleIndicators .carousel-control-prev:hover {
-  background-color: #f0390f;
-  color: #fff;
+  align-items: center;
 }
 
 .banner_img {
+  width: 100%;
+  height: 520px;
   padding-right: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
 }
 
 .banner_img figure {
+  width: 100%;
+  height: 100%;
   margin: 0;
+}
+
+.banner_img figure img,
+.banner_img img,
+.img_responsive {
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+  object-position: center;
+}
+@media (max-width: 768px) {
+
+  .carousel-item,
+  .carousel-inner,
+  .carousel-inner .carousel-item,
+  .carousel-caption.relative {
+    height: 620px;
+    min-height: 620px;
+  }
+
+  .banner_img {
+    height: 320px;
+    padding-right: 0;
+    margin-top: 20px;
+  }
+
+  .relative h3 {
+    font-size: 40px;
+    line-height: 48px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
 }
 
 /** end banner section **/
